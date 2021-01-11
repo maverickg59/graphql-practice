@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard",
+    "format": "standard --fix",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +17,9 @@
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
     "graphql-tag": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "standard": "^16.0.3"
   }
 }
